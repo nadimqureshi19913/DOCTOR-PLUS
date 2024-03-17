@@ -63,7 +63,7 @@ display: none;
 /* ---------navlogo------------- */
 .navlogo
 {
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 600;
     cursor: pointer;
 }
@@ -97,7 +97,7 @@ position: relative;
 .navMenu .input
 {
     width: 350px;
-    padding: .8rem .3rem;
+    padding: .6rem .9rem;
     border-radius: 10px;
     background: var(---whiteColor);
     display: flex;
@@ -108,7 +108,7 @@ position: relative;
 .navMenu .input i
 {
     color: var(---textColor);
-    font-size: 20px;
+    font-size: 2.3rem;
     margin-right: 10px;
     cursor: pointer;
 }
@@ -142,7 +142,7 @@ position: relative;
 .navMenu li a:hover
 {
 border-bottom: 3px solid var(---whiteColor);
-border-radius: 10px;
+
 }
 
 
@@ -175,7 +175,7 @@ border-radius: 10px;
     /* background: blue; */
 
     overflow: hidden;
-    margin-top:70px;
+    margin-top:80px;
     /* background: red; */
     align-items: center;
     text-align: center;
@@ -193,12 +193,12 @@ border-radius: 10px;
 
          .sections
         {
-           width: 80%;
+           width: 85%;
            display: flex;
            justify-content:flex-start;
            align-items: center;
-           gap: 50px;
-           padding: 1rem 0.5rem;
+           gap: 20px;
+           padding: 1rem 1rem;
           text-align: center;
           /* background: red; */
           margin: auto;
@@ -210,11 +210,12 @@ border-radius: 10px;
             color: var(---textColor);
             list-style: none;
             text-decoration: none;
-            font-size:1.2rem;
+            font-size:1.5rem;
             width: 100%;
             font-weight: 500;
             padding-bottom: 5px;
             border: none;
+            /* border-radius: 10px; */
 
             li
             {
@@ -227,7 +228,7 @@ border-radius: 10px;
            {
             color: black;
             border-bottom: 5px solid var(---primaryColor);
-            border-radius: 10px;
+            
            }
         }
     }
@@ -350,7 +351,7 @@ border-radius: 10px;
                 align-items: center;
                 padding: 0rem 2rem;
                 gap: 30px;
-                background: whitesmoke;
+                background: #DFE7ED;
                 border-radius: 20px;
                 /* border: 2px solid black; */
 
@@ -372,7 +373,7 @@ border-radius: 10px;
                     {
                         width: 100%;
                         border-radius: 100%;
-                        border: 3px solid var(---primaryColor);
+                        /* border: 3px solid var(---primaryColor); */
                         box-shadow: 3px 5px 15px var(---secondaryColor);
                         margin-top: 50px;
                         height: 100%;
@@ -387,11 +388,11 @@ border-radius: 10px;
                         align-items: center;
                         gap: 5px;
                         text-align: center;
-                        color: goldenrod;
+                        color: #F89603;
 
                         img
                         {
-                        color: gold;
+                        color: #F89603;
                         }
                     }
                     p
@@ -419,11 +420,12 @@ border-radius: 10px;
                         .btn button
                         {
                             padding: .6rem 1.5rem;
-                            border: 3px solid rgb(75, 218, 75);
+                            border: 3px solid rgb(54, 172, 54);
                             font-size: 18px;
+                            background: transparent;
                             font-weight: 500;
                             border-radius: 30px;
-                            color: rgb(75, 218, 75);
+                            color: rgb(54, 172, 54);
                         }
                     }
 
@@ -466,18 +468,19 @@ border-radius: 10px;
                     button
                     {
                         width: 45%;
-                        padding: .6rem 0rem;
+                        padding: 1rem .5rem;
                         border-radius: 10px;
                         font-size: 1.4rem;
                         color: var(---primaryColor);
+                        background: transparent;
                         font-weight: 600;
-                        border:3px solid var(---secondaryColor);
+                        border:1px solid var(---secondaryColor);
                         /* box-shadow: 3px 5px 15px var(---secondaryColor); */
                     }
 
-                    button:active{
+                    /* button:active{
                         transform: scale(0.9);
-                    }
+                    } */
 
                     .bookbtn
                     {
@@ -534,7 +537,7 @@ border-radius: 10px;
         {
        width: 25%;
          
-         background: whitesmoke;
+         background: #DFE7ED;
          border-radius: 10px;
          display: flex;
          flex-direction: column;
@@ -618,11 +621,11 @@ border-radius: 10px;
             flex-direction: column;
             justify-content: start;
             align-items: center;
-            background: var(---primaryColor) ;
+            background: var(---secondaryColor) ;
            border-radius: 20px;
            animation: border-transform 2s infinite ease-in-out;
             box-shadow: 0 10px 20px var(---secondaryColor);
-            border: 2px solid var(---primaryColor);
+            /* border: 2px solid var(---primaryColor); */
            color: white;
            margin-top: -6rem;
 
@@ -633,7 +636,7 @@ border-radius: 10px;
                 border-radius: 100%;
                background: var(---whiteColor);
                 overflow: hidden;
-                border: 3px solid var(---secondaryColor);
+                border: 3px solid rgb(37, 180, 237);
                 
 
                 img
@@ -670,6 +673,7 @@ border-radius: 10px;
                 {
                     font-size: 2.8rem;
                     margin-top: -6rem;
+                    color: var(---secondaryColor);
                 }
 
                 h3
@@ -718,6 +722,7 @@ border-radius: 10px;
                 justify-content: space-between;
                 align-items: center;
                 padding: .5rem .5rem;
+                color: var(---blackColor);
                 /* flex-wrap: wrap; */
 
                 .arrow
@@ -739,6 +744,7 @@ border-radius: 10px;
                     justify-content:space-between;
                     position: relative;
                     padding-bottom: 5px;
+                    color: black;
                     /* flex-wrap: wrap; */
                     
                     .borderbtm
@@ -774,6 +780,7 @@ border-radius: 10px;
             {
              width: 100%;
              padding: 1rem .5rem;
+             color: var(---blackColor);
 
              .mrng
              {
@@ -1005,7 +1012,7 @@ border-radius: 10px;
   .savedDr  
   {
     width: 100%;
-    padding: .3rem .3rem;
+    padding: .5rem 1.5rem;
     background: var(---primaryColor);
     display: flex;
     justify-content: space-between;
@@ -1023,7 +1030,7 @@ border-radius: 10px;
   .PatientHealt  
   {
     width: 100%;
-    padding: .3rem .3rem;
+    padding: .5rem 1.5rem;
     background: var(---primaryColor);
     display: flex;
     justify-content: space-between;
@@ -1041,7 +1048,7 @@ border-radius: 10px;
   .InformUpdates 
   {
     width: 100%;
-    padding: .3rem .3rem;
+    padding: .5rem 1.5rem;
     background: var(---primaryColor);
     display: flex;
     justify-content: space-between;
@@ -1076,7 +1083,8 @@ border-radius: 10px;
     display: flex;
     justify-content:start;
     align-items: start;
-    border: 3px solid var(---primaryColor);
+    /* border: 3px solid var(---primaryColor); */
+    background: #CCE3E1;
 
     .img
     {
@@ -1141,7 +1149,7 @@ border-radius: 10px;
                 color: var(---blackColor);
                 i
                 {
-                    color: gold;
+                    color: #EEA632;
                     margin-right: 5px;
                     font-size: 1.9rem;
                 }
@@ -1257,7 +1265,8 @@ border-radius: 10px;
                 justify-content:center;
                 align-items: center;
                 /* gap: 20px; */
-                border: 3px solid var(---primaryColor);
+                /* border: 3px solid var(---primaryColor); */
+                background: #DAF8FF;
             
                 .img
                 {
@@ -1276,7 +1285,7 @@ border-radius: 10px;
                     display: flex;
                     flex-direction: column;
                     gap: 20px;
-            
+                    
                     .name
                     {
                        align-items: center;
@@ -1287,7 +1296,8 @@ border-radius: 10px;
                         i
                         {
                             font-size: 1.7rem;
-                            color:var(---primaryColor);
+                            /* color:var(---primaryColor); */
+                            /* border: 3px solid var(---primaryColor); */
                         }
                     }
             
@@ -1297,6 +1307,7 @@ border-radius: 10px;
                         font-size: 1.1rem;
                         text-align: center;
                         font-weight: 500;
+                        text-align: justify;
                     }
             
                     .ratingbtn
