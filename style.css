@@ -22,8 +22,8 @@
 
 body
 {
-    width: 100vw;
-    height: 100vh;
+    weight: max-content;
+    height: max-content;
     background:var(---whiteColor);
 }
 
